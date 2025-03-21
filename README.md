@@ -89,6 +89,17 @@ php artisan migrate --seed
 php artisan serve
 ```
 
+After seeding, an API token will be printed in the terminal.  
+Use it to authenticate requests with the `Authorization: Bearer {token}` header.
+
+Example
+
+```shell
+$ php artisan migrate --seed
+
+User token: 1|hHcRb7k2...aTokenExample
+```
+
 ---
 
 ## Running Tests

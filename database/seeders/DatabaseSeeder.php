@@ -19,6 +19,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Demo User',
         ]);
 
+        $token = $user->createToken("API Token")->plainTextToken;
+        $this->command->info("User token: " . $token);
+
         Transaction::factory()->count(5)->create(['user_id' => $user->id]);
     }
 }
