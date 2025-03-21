@@ -3,7 +3,6 @@
 namespace App\Events;
 
 use App\Models\Transaction;
-use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Foundation\Events\Dispatchable;
 
 class TransactionCreated
