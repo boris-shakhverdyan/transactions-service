@@ -1,5 +1,9 @@
 # VoucherMoney – Transaction Microservice (Laravel 12)
 
+![Laravel](https://img.shields.io/badge/Laravel-12-red)
+![PHP](https://img.shields.io/badge/PHP-8.2-blue)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 A clean, scalable Laravel 12 microservice for managing user transactions.  
 Built with SOLID principles, service-repository architecture, event-driven logic, and fully tested API.
 
